@@ -3,20 +3,27 @@
 // Error Driven Development 
 // Test Driven Development
 
-let nums = process.argv.slice(2);
-console.log(nums);
+let args = process.argv.slice(2);
+console.log(args);
 
-// console.log(nums);
-let sum = 0;
-for (let num of nums) {
-  let numProper = Number(num); 
-  // check to see if numProper is a number vs NaN
-  if (!isNaN(numProper)) {
-    sum += numProper; // sum = sum + num;
+const performSum = function(stringNums) {
+  // returns ... 
+  let sum = 0;
+  for (let num of stringNums) {
+    let numProper = Number(num); 
+    // check to see if numProper is a number vs NaN
+    if (!isNaN(numProper)) {
+      sum += numProper; // sum = sum + num;
+    }
   }
+  return sum;
 }
 
-console.log('Sum Total: ', sum);
+// console.log(nums);
+
+
+const finalSum = performSum(args);
+console.log('Sum Total: ', finalSum);
 
 
 // final line
