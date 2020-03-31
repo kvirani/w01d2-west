@@ -18,3 +18,5 @@ for (let num of nums) {
 
 console.log('Sum Total: ', sum);
 
+
+// final line
