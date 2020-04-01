@@ -82,4 +82,4 @@ March 31, 2020
   - Compass D1 and D2
   - Lecture notes in a few mins/hours
   - Prompted for lecture feedback. 
-- Curriculum Outline (given time. If not, [view the slides yourself](https://docs.google.com/presentation/d/1m3R_aN4S5YoCBmXRbjaZQGatygWyZXYLcN-fkcP_HWA) and ask questions in Slack for EMs to answer)
+- Curriculum Outline (given time. If not, view the slides yourself and ask questions in Slack for EMs to answer)
